@@ -1,0 +1,25 @@
+{
+  "name": "tal-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "tal": "bin/tal.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm unlink && npm link && tal init test -f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "git-clone": "^0.1.0",
+    "ora": "^5.4.0",
+    "shelljs": "^0.8.4",
+    "subject-cli": "^1.0.4",
+    "tracer": "^1.1.4"
+  }
+}
