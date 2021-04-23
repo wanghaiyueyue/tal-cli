@@ -1,6 +1,6 @@
 {
   "name": "tal-cli2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm unlink && npm link && tal init test -f",
+    "dev": "npm unlink && npm link",
     "link": "npm unlink && npm link"
   },
   "keywords": [],
